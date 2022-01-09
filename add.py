@@ -7,6 +7,8 @@ for outer_index in range(len(nums)):
         if nums[outer_index] + nums[inner_index] == target:
             print(outer_index, inner_index)
 
+""" while loop"""
+print("while loop")
 
 # While loop solution
 for outer_index in range(len(nums)):
